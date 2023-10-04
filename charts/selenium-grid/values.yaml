@@ -339,7 +339,7 @@ hub:
 # Keda scaled object configuration
 autoscaling:
   # Enable autoscaling. Implies installing KEDA
-  enabled: false
+  enabled: true
   # Enable autoscaling without automatically installing KEDA
   enableWithExistingKEDA: false
   # Which typ of KEDA scaling to use: job or deployment
